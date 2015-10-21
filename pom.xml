@@ -6,6 +6,10 @@
 	<artifactId>vecmath</artifactId>
 	<version>1.6.0-scijava-1-SNAPSHOT</version>
 
+	<name>Java 3D Vecmath</name>
+	<description>Math functions for the Java 3D Graphics API</description>
+	<url>https://github.com/scijava/vecmath</url>
+
 	<licenses>
 		<license>
 			<name>GPLv2</name>
