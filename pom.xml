@@ -4,7 +4,7 @@
 
 	<groupId>org.scijava</groupId>
 	<artifactId>vecmath</artifactId>
-	<version>1.6.0-scijava-1-SNAPSHOT</version>
+	<version>1.6.0-scijava-1</version>
 
 	<name>Java 3D Vecmath</name>
 	<description>Math functions for the Java 3D Graphics API</description>
@@ -29,7 +29,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/vecmath</connection>
 		<developerConnection>scm:git:git@github.com:scijava/vecmath</developerConnection>
-		<tag>HEAD</tag>
+		<tag>vecmath-1.6.0-scijava-1</tag>
 		<url>https://github.com/scijava/vecmath</url>
 	</scm>
 
