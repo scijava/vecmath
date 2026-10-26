@@ -1,8 +1,15 @@
 # Java 3D Vecmath
 
+***THIS PROJECT IS OBSOLETE:***
+* We now recommend using [JogAmp's vecmath](https://github.com/philjord/vecmath).
+* The [SciJava Maven repository](https://maven.scijava.org/) proxies the [Jogamp Java 3D Maven repository](https://jogamp.org/deployment/maven-java3d/).
+* For the latest version, use Maven coordinate `org.jogamp.java3d:vecmath`.
+
+----------
+
 This is a Mavenized version of the latest
 [Java 3D](https://en.wikipedia.org/wiki/Java_3D) `vecmath` component,
-[built on JOGL 2.x](http://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html),
+[built on JOGL 2.x](https://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html),
 with a renamed package prefix to avoid conflicts with old versions of Java 3D.
 
 ## Background and rationale
@@ -21,7 +28,7 @@ However, that approach has many downsides:
   specially (e.g., with Maven, using `provided` scope in the POM).
 
 These days, Java 3D 1.6 is [built on top of
-JOGL 2.x](http://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html),
+JOGL 2.x](https://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html),
 and [available on GitHub](https://github.com/hharrison/java3d-core). But old
 installations of Java 3D still lurk, waiting to disrupt applications at
 runtime: libraries present on the Java extensions path take precedence over
@@ -48,7 +55,7 @@ versions of Java 3D.
 
 This project is a temporary fork, until upstream Java 3D makes some progress.
 See:
-* [Java 3D: Use Maven to build, and publish Maven artifacts](http://forum.jogamp.org/Java-3D-Use-Maven-to-build-and-publish-Maven-artifacts-tp4035555p4035810.html)
+* [Java 3D: Use Maven to build, and publish Maven artifacts](https://forum.jogamp.org/Java-3D-Use-Maven-to-build-and-publish-Maven-artifacts-tp4035555p4035810.html)
 
 ## How to use it
 
